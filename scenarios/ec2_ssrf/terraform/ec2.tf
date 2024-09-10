@@ -29,7 +29,7 @@ resource "aws_iam_role" "ec2_role" {
         Principal = {
           Service = "ec2.amazonaws.com"
         }
-        Effect = "Allow"
+        Effect = "Deny"
       }
     ]
   })
